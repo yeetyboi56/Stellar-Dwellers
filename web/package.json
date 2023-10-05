@@ -1,0 +1,28 @@
+{
+    "name": "stellar-dwellers-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "watch": "npx tailwindcss -i ./input.css -o ./src/output.css --watch",
+        "build": "npx tailwindcss -i ./input.css -o ./src/output.css"
+    },
+    "keywords": [],
+    "author": "Chayut Siripassorn <contact@chayut.co>",
+    "license": "All-Rights-Reserved",
+    "private": true,
+    "devDependencies": {
+        "prettier": "3.0.3",
+        "prettier-plugin-tailwindcss": "^0.5.5",
+        "tailwindcss": "^3.3.3"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false,
+        "plugins": [
+            "prettier-plugin-tailwindcss"
+        ]
+    }
+}

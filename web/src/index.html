@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Stellar Dwellers &bullet; Home</title>
+
+        <!-- Google Font Trispace 200,300,400,500,700,800 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Trispace:wght@200;300;400;500;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="output.css" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="bg-black px-4 py-2 text-white">
+            <!-- Navbar Contents -->
+            <div
+                class="container mx-auto flex max-w-screen-xl items-center justify-between"
+            >
+                <a
+                    href="index.html"
+                    class="text-[40px] font-extrabold transition-colors duration-200 hover:text-gray-300"
+                    >SD</a
+                >
+
+                <!-- Mobile Hamburger -->
+                <div class="relative md:hidden">
+                    <button
+                        id="menu-btn"
+                        type="button"
+                        class="hamburger absolute -bottom-1 block focus:outline-none md:hidden"
+                    >
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+
+                <!-- Desktop Menu -->
+                <ul class="hidden space-x-6 md:flex">
+                    <li>
+                        <a
+                            href="index.html"
+                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="titancity.html"
+                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                            >Titan City 3023</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/yeetyboi56/Stellar-Dwellers"
+                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                            >GitHub Repo</a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mobile Menu -->
+            <ul id="menu" class="container hidden flex-col space-y-4 py-12">
+                <li><a href="index.html" class="text-2xl">Home</a></li>
+                <li>
+                    <a href="titancity.html" class="text-2xl"
+                        >Titan City 3023</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/yeetyboi56/Stellar-Dwellers"
+                        class="text-2xl"
+                        >GitHub Repo</a
+                    >
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <header class="bg-hero bg-cover bg-center bg-no-repeat text-white">
+            <div
+                class="container mx-auto flex max-w-screen-xl flex-col items-center justify-center space-y-8 py-36"
+            >
+                <!-- Title -->
+                <div>
+                    <h2
+                        class="font-all-small-caps text-[24px] -tracking-[1.8px] md:text-[32px] md:-tracking-[2.4px]"
+                    >
+                        Stellar Dwellers
+                    </h2>
+                    <h1
+                        class="text-[40px] font-extrabold -tracking-[2.4px] md:text-[64px] md:-tracking-[3.8px]"
+                    >
+                        Titan City 3023
+                    </h1>
+                </div>
+
+                <!-- Btn -->
+                <div
+                    class="flex flex-col items-center justify-center space-x-4 space-y-6 md:flex-row md:space-y-0"
+                >
+                    <a
+                        href="https://www.roblox.com/games/14912261925/Stellar-Dwellers"
+                        class="rounded-xl bg-orange-primary px-6 py-1 text-center text-[24px] -tracking-[1.2px] transition-colors duration-200 hover:bg-orange-primary-dark md:px-8 md:text-[32px] md:-tracking-[1.6px]"
+                        >Play</a
+                    >
+
+                    <a
+                        href="titancity.html"
+                        class="rounded-xl border-2 border-orange-primary px-6 py-1 text-center text-[24px] -tracking-[1.2px] transition-colors duration-200 hover:border-orange-primary-dark md:px-8 md:text-[32px] md:-tracking-[1.6px]"
+                        >Learn More</a
+                    >
+                </div>
+            </div>
+        </header>
+
+        <!-- About Us -->
+        <section class="relative overflow-x-clip px-4 py-8 md:py-0 md:pt-16">
+            <!-- About Us Contents -->
+            <div
+                class="container mx-auto max-w-screen-xl space-y-3 md:space-y-6"
+            >
+                <!-- Heading Container (contain heading & underline) -->
+                <div class="relative">
+                    <h1
+                        class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
+                    >
+                        About Us
+                    </h1>
+                    <img
+                        src="underline-mobile.svg"
+                        alt="underline"
+                        class="absolute bottom-0 left-1.5 md:hidden"
+                    />
+                    <img
+                        src="underline-desktop.svg"
+                        alt="underline"
+                        class="absolute bottom-0 left-1.5 hidden md:block"
+                    />
+                </div>
+
+                <!-- Content Container (contain contents) -->
+                <div>
+                    <p
+                        class="-tracking-[0.8]px font-extralight md:text-[21px] md:font-light md:-tracking-[1px]"
+                    >
+                        Our group is called Stellar Dwellers. Our group chose
+                        this group name because we all are obsessed with the
+                        movie “Interstellar” and the word “stellar” and
+                        “dwellers” seem to be perfect words match for our group.
+                        Our group is very excited looking forward to do this
+                        project because we are rookies, our dream is to develop
+                        a game about everyone interests. We have 5 members in
+                        total. Each of us seems to come from a different planet.
+                        Everyone has different skills, and we combined all our
+                        skills together to develop this project on the basis of
+                        interest in space and games. We hope the other players
+                        can join us and help us in telling us by giving us more
+                        information of Titan city. So our knowledge of Titan
+                        will expand as well us our game.
+                    </p>
+                </div>
+            </div>
+
+            <img
+                src="decorative-circle-thing.svg"
+                alt="Decorative circle element"
+                class="absolute -bottom-[calc(66px+20px)] -right-6 h-[132px] w-[132px] md:-bottom-[calc(66px+70px)]"
+            />
+        </section>
+
+        <!-- Our Mission -->
+        <section class="px-4 py-8 md:py-0 md:pt-16">
+            <!-- Our Mission Contents -->
+            <div
+                class="container mx-auto max-w-screen-xl space-y-3 md:space-y-6"
+            >
+                <!-- Heading -->
+                <h1
+                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
+                >
+                    Our Mission
+                </h1>
+
+                <!-- Content Container (contain contents) -->
+                <div class="space-y-8">
+                    <p
+                        class="-tracking-[0.8]px font-extralight md:text-[21px] md:font-light md:-tracking-[1px]"
+                    >
+                        Titan is a world of wonder and mystery. It is the only
+                        moon in the Solar System with a dense atmosphere, and it
+                        is the only known object in space other than Earth on
+                        which clear evidence of stable bodies of surface liquid
+                        has been found. Titan's surface is also thought to have
+                        a subsurface ocean of liquid water.
+                    </p>
+                    <p
+                        class="-tracking-[0.8]px font-extralight md:text-[21px] md:font-light md:-tracking-[1px]"
+                    >
+                        Titan is a diverse world, with a variety of surface
+                        features, including lakes, rivers, mountains, and dunes.
+                        Titan also has a complex weather system, with clouds and
+                        storms.
+                    </p>
+                    <p
+                        class="-tracking-[0.8]px font-extralight md:text-[21px] md:font-light md:-tracking-[1px]"
+                    >
+                        Titan is a fascinating place for scientists to study. It
+                        is a world that is still very much a mystery, and there
+                        is much that we don't know about it. However, the more
+                        we learn about Titan, the more excited we become about
+                        its potential to harbor life.
+                    </p>
+                    <p
+                        class="-tracking-[0.8]px font-extralight md:text-[21px] md:font-light md:-tracking-[1px]"
+                    >
+                        Imagine a world where rivers flow with liquid methane
+                        and ethane, where mountains rise up to the clouds, and
+                        where lakes sparkle in the hazy orange sunlight. This is
+                        the world of Titan, Saturn's largest moon.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="flex flex-col items-center py-8">
+            <span class="text-center text-sm text-[#4B5563]">
+                Stellar Dwellers Team<br />
+                Titan City 3023 Challenge
+            </span>
+        </footer>
+    </body>
+</html>

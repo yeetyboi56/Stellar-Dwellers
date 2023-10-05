@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Stellar Dwellers &bullet; Titan City 3023</title>
+
+        <!-- Google Font Trispace 200,300,400,500,700,800 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Trispace:wght@200;300;400;500;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Flowbite -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="output.css" />
+        <script src="index.js" defer></script>
+        <script src="titancity.js" defer></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="bg-black px-4 py-2 text-white">
+            <!-- Navbar Contents -->
+            <div
+                class="container mx-auto flex max-w-screen-xl items-center justify-between"
+            >
+                <a
+                    href="index.html"
+                    class="text-[40px] font-extrabold transition-colors duration-200 hover:text-gray-300"
+                    >SD</a
+                >
+
+                <!-- Mobile Hamburger -->
+                <div class="relative md:hidden">
+                    <button
+                        id="menu-btn"
+                        type="button"
+                        class="hamburger absolute -bottom-1 block focus:outline-none md:hidden"
+                    >
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+
+                <!-- Desktop Menu -->
+                <ul class="hidden space-x-6 md:flex">
+                    <li>
+                        <a
+                            href="index.html"
+                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="titancity.html"
+                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                            >Titan City 3023</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/yeetyboi56/Stellar-Dwellers"
+                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                            >GitHub Repo</a
+                        >
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mobile Menu -->
+            <ul id="menu" class="container hidden flex-col space-y-4 py-12">
+                <li><a href="index.html" class="text-2xl">Home</a></li>
+                <li>
+                    <a href="titancity.html" class="text-2xl"
+                        >Titan City 3023</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/yeetyboi56/Stellar-Dwellers"
+                        class="text-2xl"
+                        >GitHub Repo</a
+                    >
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <header class="bg-hero bg-cover bg-center bg-no-repeat text-white">
+            <div
+                class="container mx-auto flex max-w-screen-xl flex-col items-center justify-center space-y-8 py-12 md:py-24"
+            >
+                <!-- Title -->
+                <div>
+                    <h2
+                        class="font-all-small-caps text-[24px] -tracking-[1.8px] md:text-[32px] md:-tracking-[2.4px]"
+                    >
+                        Stellar Dwellers
+                    </h2>
+                    <h1
+                        class="text-[40px] font-extrabold -tracking-[2.4px] md:text-[64px] md:-tracking-[3.8px]"
+                    >
+                        Titan City 3023
+                    </h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- About the game -->
+        <section class="px-4 py-8 md:py-0 md:pt-16">
+            <!-- About the game contents -->
+            <div
+                class="container mx-auto max-w-screen-xl space-y-3 md:space-y-6"
+            >
+                <!-- Heading -->
+                <h1
+                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
+                >
+                    About the game
+                </h1>
+
+                <!-- Content Container (contain contents) -->
+                <div>
+                    <p
+                        class="-tracking-[0.8]px font-extralight md:text-[21px] md:font-light md:-tracking-[1px]"
+                    >
+                        Because we are all rookies, we don’t have a lot of
+                        platforms to work in. All of us plays “Roblox” and we
+                        thought would be a good idea to publish our game on this
+                        platform too. Our game is about an astronaut who wants
+                        to live on “Titan”. So they have to travel to the Moon
+                        and Mars for information about how we could increase the
+                        population of humans on other planets. Titan stated in
+                        the NASA website is a planet similar to Earth, so this
+                        might be a change for all of the next generations to be
+                        inspired about this NASA project. These astronauts will
+                        teleport to Titan after collecting all the information
+                        at the Moon and Mars. They will have to survive the
+                        obstacles at Titan and after they had survive, they will
+                        teleport back to Earth and the player who finished first
+                        will be the winner.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Characters -->
+        <section class="px-4 py-8 md:py-0 md:pt-16">
+            <!-- Character contents -->
+            <div
+                class="container mx-auto max-w-screen-xl space-y-3 md:space-y-6"
+            >
+                <!-- Heading -->
+                <h1
+                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
+                >
+                    Characters
+                </h1>
+
+                <!-- Character 1 Cooper -->
+                <div class="flex items-center space-x-4 md:space-x-8">
+                    <img
+                        src="Cooper.svg"
+                        alt="Icon of SG"
+                        class="h-16 w-16 md:h-20 md:w-20"
+                    />
+
+                    <div
+                        class="flex flex-col justify-center space-y-1 md:space-y-2"
+                    >
+                        <h2 class="text-[21px] uppercase md:text-[32px]">
+                            Cooper
+                        </h2>
+                        <p
+                            class="font-extralight -tracking-[0.8px] md:text-[21px]"
+                        >
+                            "The captain"
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Character 2 Amelia -->
+                <div class="flex items-center space-x-4 md:space-x-8">
+                    <img
+                        src="Amelia.svg"
+                        alt="Icon of SG"
+                        class="h-16 w-16 md:h-20 md:w-20"
+                    />
+
+                    <div
+                        class="flex flex-col justify-center space-y-1 md:space-y-2"
+                    >
+                        <h2 class="text-[21px] uppercase md:text-[32px]">
+                            Amelia
+                        </h2>
+                        <p
+                            class="font-extralight -tracking-[0.8px] md:text-[21px]"
+                        >
+                            "The beauty and brains"
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Character 3 TARS -->
+                <div class="flex items-center space-x-4 md:space-x-8">
+                    <img
+                        src="TARS.svg"
+                        alt="Icon of SG"
+                        class="h-16 w-16 md:h-20 md:w-20"
+                    />
+
+                    <div
+                        class="flex flex-col justify-center space-y-1 md:space-y-2"
+                    >
+                        <h2 class="text-[21px] uppercase md:text-[32px]">
+                            TARS
+                        </h2>
+                        <p
+                            class="font-extralight -tracking-[0.8px] md:text-[21px]"
+                        >
+                            "The med kit robot"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots -->
+        <section class="px-4 py-8 text-center md:py-0 md:pt-16">
+            <!-- Screenshot contents -->
+            <div
+                class="container mx-auto flex max-w-screen-xl flex-col items-center space-y-3 md:space-y-6"
+            >
+                <!-- Heading -->
+                <h1
+                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
+                >
+                    Screenshots
+                </h1>
+
+                <!-- Container (contain platforms) -->
+
+                <div
+                    id="default-carousel"
+                    class="relative w-full"
+                    data-carousel="slide"
+                >
+                    <!-- Carousel wrapper -->
+                    <div
+                        class="relative h-56 overflow-hidden rounded-lg md:h-96"
+                    >
+                        <!-- Item 1 -->
+                        <div
+                            class="hidden duration-700 ease-in-out"
+                            data-carousel-item
+                        >
+                            <img
+                                src="carousel0.png"
+                                class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                                alt="Carousel 1"
+                            />
+                        </div>
+                        <!-- Item 2 -->
+                        <div
+                            class="hidden duration-700 ease-in-out"
+                            data-carousel-item
+                        >
+                            <img
+                                src="carousel1.png"
+                                class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                                alt="Carousel 2"
+                            />
+                        </div>
+                        <!-- Item 3 -->
+                        <div
+                            class="hidden duration-700 ease-in-out"
+                            data-carousel-item
+                        >
+                            <img
+                                src="carousel2.png"
+                                class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                                alt="Carousel 3"
+                            />
+                        </div>
+                        <!-- Item 4 -->
+                        <div
+                            class="hidden duration-700 ease-in-out"
+                            data-carousel-item
+                        >
+                            <img
+                                src="carousel3.png"
+                                class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                                alt="Carousel 4"
+                            />
+                        </div>
+                    </div>
+
+                    <!-- Slider controls -->
+                    <button
+                        type="button"
+                        class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+                        data-carousel-prev
+                    >
+                        <span
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white"
+                        >
+                            <svg
+                                class="h-4 w-4 text-white"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 6 10"
+                            >
+                                <path
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 1 1 5l4 4"
+                                />
+                            </svg>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button
+                        type="button"
+                        class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+                        data-carousel-next
+                    >
+                        <span
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white"
+                        >
+                            <svg
+                                class="h-4 w-4 text-white"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 6 10"
+                            >
+                                <path
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="m1 9 4-4-4-4"
+                                />
+                            </svg>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platforms -->
+        <section class="px-4 py-8 text-center md:py-0 md:pt-16">
+            <!-- Platform contents -->
+            <div
+                class="container mx-auto flex max-w-screen-xl flex-col items-center space-y-3 md:space-y-6"
+            >
+                <!-- Heading -->
+                <h1
+                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
+                >
+                    Platforms
+                </h1>
+
+                <!-- Platforms container (contain platforms) -->
+                <div class="flex space-x-12">
+                    <div class="flex flex-col items-center space-y-1">
+                        <img
+                            src="PCMac.svg"
+                            alt="Icon of SG"
+                            class="h-16 w-16 md:h-20 md:w-20"
+                        />
+                        <span class="md:text-[24px]">PC, Mac</span>
+                    </div>
+
+                    <div class="flex flex-col items-center space-y-1">
+                        <img
+                            src="Mobile.svg"
+                            alt="Icon of SG"
+                            class="h-16 w-16 md:h-20 md:w-20"
+                        />
+                        <span class="md:text-[24px]">Mobile<br />Devices</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Play Now -->
+        <section class="px-4 py-8 text-center md:py-0 md:pt-16">
+            <!-- Play Now contents -->
+            <div
+                class="container mx-auto flex max-w-screen-xl flex-col items-center space-y-3 md:space-y-6"
+            >
+                <a
+                    href="https://www.roblox.com/games/14912261925/Stellar-Dwellers"
+                    class="rounded-xl bg-orange-primary px-6 py-1 text-center text-[24px] -tracking-[1.2px] text-white transition-colors duration-200 hover:bg-orange-primary-dark md:px-8 md:text-[32px] md:-tracking-[1.6px]"
+                    >Play Now!</a
+                >
+
+                <button
+                    id="copy-play-link-btn"
+                    class="break-all text-sm md:text-base"
+                >
+                    https://www.roblox.com/games/14912261925/Stellar-Dwellers
+                    <span class="text-[#4B5563]">(click to copy)</span>
+                </button>
+            </div>
+        </section>
+
+        <footer class="flex flex-col items-center py-8">
+            <span class="text-center text-sm text-[#4B5563]">
+                Stellar Dwellers Team<br />
+                Titan City 3023 Challenge
+            </span>
+        </footer>
+
+        <!-- Flowbite -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    </body>
+</html>
