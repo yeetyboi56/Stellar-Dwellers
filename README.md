@@ -1,7 +1,7 @@
 ![sd-banner](https://github.com/yeetyboi56/Stellar-Dwellers/assets/108072497/9c04203f-6286-4cc8-b25d-95f9ea875fc8)
 
 # Overview
-This is the repository for the Stellar Dwellers NASA Space Apps 3023 team. We're participating in the [Titan City 3023](https://www.spaceappschallenge.org/2023/challenges/titan-city-3023/) challenge. Our game is about an astronaut who wants to live on “Titan”. So they have to travel to the Moon and Mars for information about how we could increase the population of humans on other planets.
+This is the repository for the Stellar Dwellers NASA Space Apps Challenge team. We're participating in the [Titan City 3023](https://www.spaceappschallenge.org/2023/challenges/titan-city-3023/) challenge. Our game is about an astronaut who wants to live on “Titan”. So they have to travel to the Moon and Mars for information about how we could increase the population of humans on other planets.
 
 You can find more information about our game on our website.
 
