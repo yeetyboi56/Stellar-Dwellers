@@ -42,3 +42,4 @@ You can open this game in Roblox studio by downloading the file directly from ou
 - [Cassini at Titan](https://science.nasa.gov/mission/cassini/science/titan/)
 - [What makes a planet habitable](https://seec.gsfc.nasa.gov/what_makes_a_planet_habitable.html)
 - [Is Mars Habitable?](https://www.nasa.gov/solar-system/is-mars-habitable-we-asked-a-nasa-scientist-episode-2/#:~:text=Mars%20is%20hundreds%20of%20degrees,life%20that%20evolved%20on%20Earth.)
+- [Earth's Magnetosphere: Protecting Our Planet from Harmful Space Energy](https://climate.nasa.gov/news/3105/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/)
