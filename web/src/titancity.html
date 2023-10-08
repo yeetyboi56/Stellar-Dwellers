@@ -34,11 +34,7 @@
             <div
                 class="container mx-auto flex max-w-screen-xl items-center justify-between"
             >
-                <a
-                    href="index.html"
-                    class="text-[40px] font-extrabold transition-colors duration-200 hover:text-gray-300"
-                    >SD</a
-                >
+                <a href="index.html" class="nav-logo">SD</a>
 
                 <!-- Mobile Hamburger -->
                 <div class="relative md:hidden">
@@ -56,23 +52,17 @@
                 <!-- Desktop Menu -->
                 <ul class="hidden space-x-6 md:flex">
                     <li>
-                        <a
-                            href="index.html"
-                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
-                            >Home</a
-                        >
+                        <a href="index.html" class="menu-item">Home</a>
                     </li>
                     <li>
-                        <a
-                            href="titancity.html"
-                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                        <a href="titancity.html" class="menu-item"
                             >Titan City 3023</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://github.com/yeetyboi56/Stellar-Dwellers"
-                            class="text-2xl transition-colors duration-200 hover:text-gray-300"
+                            class="menu-item"
                             >GitHub Repo</a
                         >
                     </li>
@@ -105,12 +95,12 @@
                 <!-- Title -->
                 <div>
                     <h2
-                        class="font-all-small-caps text-[24px] -tracking-[1.8px] md:text-[32px] md:-tracking-[2.4px]"
+                        class="hero-subtitle"
                     >
                         Stellar Dwellers
                     </h2>
                     <h1
-                        class="text-[40px] font-extrabold -tracking-[2.4px] md:text-[64px] md:-tracking-[3.8px]"
+                        class="hero-title"
                     >
                         Titan City 3023
                     </h1>
@@ -121,21 +111,13 @@
         <!-- About the game -->
         <section class="px-4 py-8 md:py-0 md:pt-16">
             <!-- About the game contents -->
-            <div
-                class="container mx-auto max-w-screen-xl space-y-3 md:space-y-6"
-            >
+            <div class="text-section-container">
                 <!-- Heading -->
-                <h1
-                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
-                >
-                    About the game
-                </h1>
+                <h1 class="section-title">About the game</h1>
 
                 <!-- Content Container (contain contents) -->
-                <div>
-                    <p
-                        class="-tracking-[0.8]px font-extralight md:text-[21px] md:font-light md:-tracking-[1px]"
-                    >
+                <div class="section-content-text-container">
+                    <p>
                         Because we are all rookies, we don’t have a lot of
                         platforms to work in. All of us plays “Roblox” and we
                         thought would be a good idea to publish our game on this
@@ -159,15 +141,9 @@
         <!-- Characters -->
         <section class="px-4 py-8 md:py-0 md:pt-16">
             <!-- Character contents -->
-            <div
-                class="container mx-auto max-w-screen-xl space-y-3 md:space-y-6"
-            >
+            <div class="text-section-container">
                 <!-- Heading -->
-                <h1
-                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
-                >
-                    Characters
-                </h1>
+                <h1 class="section-title">Characters</h1>
 
                 <!-- Character 1 Cooper -->
                 <div class="flex items-center space-x-4 md:space-x-8">
@@ -244,11 +220,7 @@
                 class="container mx-auto flex max-w-screen-xl flex-col items-center space-y-3 md:space-y-6"
             >
                 <!-- Heading -->
-                <h1
-                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
-                >
-                    Screenshots
-                </h1>
+                <h1 class="section-title">Screenshots</h1>
 
                 <!-- Container (contain platforms) -->
 
@@ -371,11 +343,7 @@
                 class="container mx-auto flex max-w-screen-xl flex-col items-center space-y-3 md:space-y-6"
             >
                 <!-- Heading -->
-                <h1
-                    class="text-[32px] font-medium uppercase text-orange-primary md:text-[48px]"
-                >
-                    Platforms
-                </h1>
+                <h1 class="section-title">Platforms</h1>
 
                 <!-- Platforms container (contain platforms) -->
                 <div class="flex space-x-12">
@@ -408,7 +376,7 @@
             >
                 <a
                     href="https://www.roblox.com/games/14912261925/Stellar-Dwellers"
-                    class="rounded-xl bg-orange-primary px-6 py-1 text-center text-[24px] -tracking-[1.2px] text-white transition-colors duration-200 hover:bg-orange-primary-dark md:px-8 md:text-[32px] md:-tracking-[1.6px]"
+                    class="btn-main text-white"
                     >Play Now!</a
                 >
 
@@ -422,14 +390,14 @@
             </div>
         </section>
 
-        <footer class="flex flex-col items-center py-8">
-            <span class="text-center text-sm text-[#4B5563]">
+        <footer>
+            <span>
                 Stellar Dwellers Team<br />
                 Titan City 3023 Challenge
             </span>
         </footer>
 
-        <!-- Flowbite -->
+        <!-- Flowbite JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     </body>
 </html>

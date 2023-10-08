@@ -2,12 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-hero {
-    background-image: url("hero.png");
+@layer base {
+    footer {
+        @apply flex flex-col items-center py-8
+    }
+
+    footer > span {
+        @apply text-center text-sm text-[#4B5563]
+    }
 }
 
-.font-all-small-caps {
-    font-variant: all-small-caps;
+@layer components {
+    .menu-item {
+        @apply text-2xl transition-colors duration-200 hover:text-gray-300;
+    }
+
+    .btn-main {
+        @apply rounded-xl bg-orange-primary px-6 py-1 text-center text-[24px] -tracking-[1.2px] transition-colors duration-200 hover:bg-orange-primary-dark md:px-8 md:text-[32px] md:-tracking-[1.6px];
+    }
+
+    .btn-ring-only {
+        @apply rounded-xl border-2 border-orange-primary px-6 py-1 text-center text-[24px] -tracking-[1.2px] transition-colors duration-200 hover:border-orange-primary-dark md:px-8 md:text-[32px] md:-tracking-[1.6px];
+    }
+
+    .text-section-container {
+        @apply container mx-auto max-w-screen-xl space-y-3 md:space-y-6;
+    }
+
+    .section-title {
+        @apply text-[32px] font-medium uppercase text-orange-primary md:text-[48px];
+    }
+
+    .hero-subtitle {
+        @apply font-all-small-caps text-[24px] -tracking-[1.8px] md:text-[32px] md:-tracking-[2.4px]
+    }
+
+    .hero-title {
+        @apply text-[40px] font-extrabold -tracking-[2.4px] md:text-[64px] md:-tracking-[3.8px]
+    }
+
+    .nav-logo {
+        @apply text-[40px] font-extrabold transition-colors duration-200 hover:text-gray-300
+    }
+}
+
+/* Section content text container */
+/* This contains p elements (see usage in index.html) */
+.section-content-text-container {
+    @apply space-y-8;
+}
+
+.section-content-text-container > p {
+    letter-spacing: -0.8px; /* -0.8px does not work in @apply directive */
+    @apply font-extralight md:text-[21px] md:font-light md:-tracking-[1px];
+}
+
+@layer utilities {
+    .bg-hero {
+        background-image: url("hero.png");
+    }
+
+    .font-all-small-caps {
+        font-variant: all-small-caps;
+    }
+
+    .offset-right {
+        @apply absolute bottom-0 left-1.5;
+    }
 }
 
 /* Hamburger Menu */
