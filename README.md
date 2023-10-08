@@ -20,6 +20,7 @@ You can open this game in Roblox studio by downloading the file directly from ou
 NOTE: Sound effects may be absent from the game if you've downloaded the game from our GitHub repo, this is a limitation of Roblox Studio save files. Consider getting the Roblox Studio file from our [Roblox game page](https://www.roblox.com/games/14912261925/Stellar-Dwellers/) instead.
 
 # Running the website
+We already have the website running at [https://stellar-dwellers.pages.dev/](https://stellar-dwellers.pages.dev/). If you want to host it yourself, you can follow these instructions.
 
 1. Clone this repository
 2. Go into the `web` folder, run `npm install` and `npm run build`
