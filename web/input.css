@@ -4,11 +4,11 @@
 
 @layer base {
     footer {
-        @apply flex flex-col items-center py-8
+        @apply flex flex-col items-center py-8;
     }
 
     footer > span {
-        @apply text-center text-sm text-[#4B5563]
+        @apply text-center text-sm text-[#4B5563];
     }
 }
 
@@ -34,15 +34,15 @@
     }
 
     .hero-subtitle {
-        @apply font-all-small-caps text-[24px] -tracking-[1.8px] md:text-[32px] md:-tracking-[2.4px]
+        @apply font-all-small-caps text-[24px] -tracking-[1.8px] md:text-[32px] md:-tracking-[2.4px];
     }
 
     .hero-title {
-        @apply text-[40px] font-extrabold -tracking-[2.4px] md:text-[64px] md:-tracking-[3.8px]
+        @apply text-[40px] font-extrabold -tracking-[2.4px] md:text-[64px] md:-tracking-[3.8px];
     }
 
     .nav-logo {
-        @apply text-[40px] font-extrabold transition-colors duration-200 hover:text-gray-300
+        @apply text-[40px] font-extrabold transition-colors duration-200 hover:text-gray-300;
     }
 }
 
