@@ -22,9 +22,10 @@ NOTE: Sound effects may be absent from the game if you've downloaded the game fr
 # Running the website
 We already have the website running at [https://stellar-dwellers.pages.dev/](https://stellar-dwellers.pages.dev/). If you want to host it yourself, you can follow these instructions.
 
-1. Clone this repository
-2. Go into the `web` folder, run `npm install` and `npm run build`
-3. Serve the `src` folder
+1. Install NodeJS and a web server to serve the files
+2. Clone this repository
+3. Go into the `web` folder, run `npm install` and `npm run build`
+4. Serve the `src` folder
 
 # Sources & Credits
 
