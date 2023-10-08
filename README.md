@@ -15,7 +15,7 @@ The second one, `web`, contains all the code for our website.
 You can head over to our [Roblox game page](https://www.roblox.com/games/14912261925/Stellar-Dwellers/) using either a computer or a mobile device, sign in to Roblox, then click play to enter the game.
 
 
-You can open this game in Roblox studio by downloading the file directly from our [Roblox game page](https://www.roblox.com/games/14912261925/Stellar-Dwellers/) by clicking `Edit in Studio`, or you can download the file from our GitHub repository [here](https://github.com/yeetyboi56/Stellar-Dwellers/blob/main/roblox/stellar-dwellers-final.rbxl).
+You can open this game in Roblox studio by downloading the file directly from our [Roblox game page](https://www.roblox.com/games/14912261925/Stellar-Dwellers/) by clicking `Edit in Studio`, or you can download the file from our GitHub repository [here](https://github.com/yeetyboi56/Stellar-Dwellers/blob/main/roblox/stellar-dwellers.rbxl).
 
 NOTE: Sound effects may be absent from the game if you've downloaded the game from our GitHub repo, this is a limitation of Roblox Studio save files. Consider getting the Roblox Studio file from our [Roblox game page](https://www.roblox.com/games/14912261925/Stellar-Dwellers/) instead.
 
